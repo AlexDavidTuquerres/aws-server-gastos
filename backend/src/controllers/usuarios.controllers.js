@@ -6,7 +6,7 @@ usuariosControllers.addUsuario=async(requestAnimationFrame,res)=>{
     res.send("Nuevo usuario registrado");
 }
 
-usuariosControllers.getUsuario= async(req,res)=>
+usuariosControllers.getUsuarios= async(req,res)=>
 
 {
 

@@ -8,4 +8,4 @@ const GastosSchema=new Schema({
     createdAt: {type: Date, default: Date.now}
 })
 
-module.exports=mongoose.model('Gasto',GastosSchema)
+module.exports=mongoose.model('Gastos',GastosSchema)

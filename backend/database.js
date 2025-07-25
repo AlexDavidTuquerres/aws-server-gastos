@@ -1,5 +1,5 @@
 const mongoose=require('mongoose'); 
-const URI='mongodb+srv://alextuquerres2003:Bt20JNTiksuQscQa@cluster0.bqoupjr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'; 
+const URI = 'mongodb://127.0.0.1:27017/Gastos';
 mongoose.connect(URI)
 .then(db=> console.log('BD conectada')) 
 .catch(err => console.error(err)); 
